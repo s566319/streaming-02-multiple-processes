@@ -1,5 +1,10 @@
 # streaming-02-multiple-processes
 
+## Student: Inga Miller
+## Class: 44-671 Streaming Data
+## Module 2
+## May 6, 2024
+
 > Multiple processes accessing a shared resource concurrently
 
 ## Overview
