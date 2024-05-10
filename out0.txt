@@ -8,27 +8,37 @@ Copy and paste the terminal results (when task_duration is 0) here.
 
 ======================================================================
 STARTING UP.............................
-  Date and Time:    2024-05-06 at 07:55 PM
+  Date and Time:    2024-05-06 at 09:18 PM
   Operating System: nt Windows 11
   Python Version:   3.12.3
   Path to Interpreter:  C:\Users\ingam\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe
 ======================================================================
 
-2024-05-06 19:55:04,528 - INFO - Called recreate_database().
-2024-05-06 19:55:04,528 - INFO - Called drop_table().
-2024-05-06 19:55:04,543 - INFO - Table 'pets' dropped successfully.
-2024-05-06 19:55:04,544 - INFO - Called create_table().
-2024-05-06 19:55:04,554 - INFO - Table 'pets' created successfully.
-2024-05-06 19:55:04,923 - INFO - Called process_one().
-2024-05-06 19:55:04,923 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
-2024-05-06 19:55:04,962 - INFO - Called process_two().
-2024-05-06 19:55:04,962 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
-2024-05-06 19:55:05,016 - INFO - Called process_three().
-2024-05-06 19:55:05,016 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
-2024-05-06 19:55:07,938 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
-2024-05-06 19:55:10,633 - ERROR - ERROR while P2 inserting pet Cooper: database is locked
-2024-05-06 19:55:10,649 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.
-2024-05-06 19:55:10,694 - ERROR - ERROR while P3 inserting pet Emma: database is locked
-2024-05-06 19:55:10,694 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.
+2024-05-06 21:18:18,223 - INFO - Called recreate_database().
+2024-05-06 21:18:18,224 - INFO - Called drop_table().
+2024-05-06 21:18:18,246 - INFO - Table 'pets' dropped successfully.
+2024-05-06 21:18:18,246 - INFO - Called create_table().
+2024-05-06 21:18:18,256 - INFO - Table 'pets' created successfully.
+2024-05-06 21:18:18,649 - INFO - Called process_one().
+2024-05-06 21:18:18,649 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
+2024-05-06 21:18:18,660 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
+2024-05-06 21:18:18,700 - INFO - Called process_two().
+2024-05-06 21:18:18,700 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
+2024-05-06 21:18:18,709 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.
+2024-05-06 21:18:18,748 - INFO - Called process_three().
+2024-05-06 21:18:18,748 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
+2024-05-06 21:18:18,757 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.
+2024-05-06 21:18:18,784 - INFO - 
+SUCCESS: All processes successfully completed!
 
-[Done] exited with code=0 in 13.147 seconds
+Now - increase the task duration (representing 
+      the time the task has the database 
+      tied up during an insert statement).
+How well do multiple, concurrent processes share a database 
+    when each task takes more time? 
+How can multiple processes share a resource
+    without interfering with each other?
+
+
+[Done] exited with code=0 in 1.167 seconds
+

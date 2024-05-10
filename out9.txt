@@ -1,0 +1,42 @@
+In the console, type clear and hit Enter or Return. 
+
+This will clear the console output. 
+
+Run the file once while the tasks are longer. 
+
+
+[Running] python -u "c:\Users\ingam\streaming-02-multiple-processes-1\process_streaming_ingamiller.py"
+2024-05-10 07:38:30,495 - INFO - ===============================================
+2024-05-10 07:38:30,497 - INFO - Starting fake streaming process.
+2024-05-10 07:38:30,497 - INFO - Starting to stream data from Best_ Touristics _sites _in _Latvia - Sheet1.csv to ('localhost', 9999).
+2024-05-10 07:38:30,497 - INFO - Opened for reading: Best_ Touristics _sites _in _Latvia - Sheet1.csv.
+2024-05-10 07:38:30,498 - INFO - Skipped header row: ['Destination', 'Location', 'No_of_Excellent', 'Very_Good', 'Average', 'poor', 'Terrible', 'Total_Review', 'Rating', 'Transport_means', 'Tour_cost']
+2024-05-10 07:38:30,513 - INFO - Sent: b'[Old City Riga (Vecriga), Center, 4,943, 1,867, 294, 38, 15, 7,157, 4.5, walk, tour bike, 5-10eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:38:33,515 - INFO - Sent: b'[Jurmala Beach, Jurmala, 1,110, 556, 144, 29, 7, 1,846, 4.5, bus,train,taxi, 1,50-3eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:38:36,554 - INFO - Sent: b'[Dzintari Forest Park, Jurmala, 394, 86, 13, 1, 0, 494, 5, bus,train,taxi, 1,50-3eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:38:39,557 - INFO - Sent: b'[Kemeri National Park, Jurmala, 165, 44, 8, 3, 2, 222, 4.5, bus,train,taxi, 1,50-3eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:38:42,559 - INFO - Sent: b'[Turaida Castle, sigulda, 343, 336, 109, 20, 9, 817, 4, bus.train, 2-7eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:38:45,561 - INFO - Sent: b'[Riga Motormuseum, Eizen\xc3\x85\xc2\xa1teina iela 6, 540, 106, 22, 2, 4, 674, 4.5, taxi,trolly, 1.15-8eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:38:48,627 - INFO - Sent: b'[Bobsleigh, sigulda, 143, 53, 16, 4, 5, 221, 4.5, bus.train, 2-10eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:38:51,629 - INFO - Sent: b'[Northern Forts, Liepaja, 104, 43, 6, 4, 1, 158, 4.5, bus.train, 1,50-3eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:38:54,652 - INFO - Sent: b'[Central Market, center, 1,668, 1,185, 423, 94, 43, 3,413, 4.5, taxi,trolly, 1.15-8eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:38:57,666 - INFO - Sent: b'[Karosta Prison, Liepaja, 81, 69, 20, 5, 6, 181, 4, bus.train, 1,50-5eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:00,668 - INFO - Sent: b'[Daugavpils Mark Rothko Art Centre, Daugavpils, 90, 41, 15, 1, 1, 148, 4.5, bus.train, 1,50-5eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:03,728 - INFO - Sent: b'[Jomas Street, Jurmala, 275, 256, 133, 27, 6, 697, 4, bus.train, 1,50-3eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:06,731 - INFO - Sent: b'[Old Sigulda Castle, sigulda, 142, 157, 76, 13, 3, 391, 4.5, bus.train, 2-7eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:09,788 - INFO - Sent: b'[House Of The Black Heads, old Riga, 1,034, 554, 178, 26, 12, 1,804, 4.5, walk,tour bus, 2-7eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:12,832 - INFO - Sent: b'[Ventspils Beach, Ventspils, 150, 46, 6, 0, 1, 203, 4.5, bus.train, 1,50-5eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:15,835 - INFO - Sent: b'[KGB Building, center, 970, 347, 121, 30, 36, 1,504, 4.5, taxi,trolly, 1.15-8eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:18,895 - INFO - Sent: b'[Jurmalas Park, Jurmala, 74, 19, 0, 2, 1, 96, 4.5, bus.train, 1,50-3eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:21,903 - INFO - Sent: b'[C\xc3\x84\xe2\x80\x9csis Medieval Castle, Cesis, 270, 141, 44, 4, 3, 462, 4.5, bus.train, 1,50-6eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:24,905 - INFO - Sent: b'[Brunurupucis (The Turtle), Jurmala, 139, 68, 59, 8, 3, 277, 4, bus.train, 1,50-3eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:27,908 - INFO - Sent: b'[Viewing Tower by Architect Bureau ARHIS, Jurmala, 92, 52, 15, 2, 2, 163, 4.5, bus.train, 1,50-3eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:30,971 - INFO - Sent: b'[Cable Car Across Gaya, sigulda, 57, 72, 42, 17, 10, 198, 4, bus.train, 2-12eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:34,015 - INFO - Sent: b'[Venta Rapid Waterfall, kuldiga, 176, 75, 21, 1, 0, 273, 4.5, bus.train, 1,50-3eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:37,044 - INFO - Sent: b'[Latgale Zoological Garden, Daugavpils, 32, 13, 4, 1, 2, 52, 4.5, bus.train, 1,50-5eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:40,047 - INFO - Sent: b'[Gutmanis Cave, sigulda, 58, 87, 133, 41, 15, 334, 3.5, bus.train, 2-5eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:43,083 - INFO - Sent: b'[Holy Trinity Church, Jelgava, 41, 13, 4, 1, 1, 60, 4.5, bus.train, 1,50-3eurs]' on port 9999. Hit CTRL-c to stop.
+2024-05-10 07:39:46,119 - INFO - Streaming complete!
+2024-05-10 07:39:46,178 - INFO - ===============================================
+
+[Done] exited with code=0 in 76.17 seconds
